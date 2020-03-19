@@ -13,6 +13,7 @@ function connect_db($dbname)
 		return false;
 	} 
 	echo "db连接成功"."<br>";
+	
 	return $conn;
 }
 
